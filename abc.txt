@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+PS D:\JavaScript\Assignment_3> node main.js "organize" "D:\Galzy 2"
+
+
+
+
+
+
+
+
+Organize Implemented
+
+
+
+
+
+
+
+
+
+DSC00539.jpg being copied to image
+
+
+
+
+
+
+
+
+DSC01416.JPG being copied to image
+
+
+
+
+
+
+
+
+
+
+
+DSC01417.JPG being copied to image
+
+
+
+
+
+
+
+
+
+
+
+DSC01418.JPG being copied to image
+
+
+
+
+
+
+
+
+
+
+
+DSC01419.JPG being copied to image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DSC01420.JPG being copied to image
+
+
+
+
+
+
+
+
+
+
+
+Pearson VUE - Exam Appointment Details.pdf being copied to documentsPS D:\JavaScript\Assignment_3> 

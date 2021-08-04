@@ -1,0 +1,60 @@
+// let fs=require("fs");
+
+// let res=fs.readFileSync("index.js");
+// console.log(res.toString());
+
+// fs.writeFileSync("abc.txt","Hello Rohit");
+
+// fs.appendFileSync("abc.txt"," Jadon");
+
+// fs.unlinkSync("abc.txt");
+
+//directory
+// fs.mkdirSync("abc");
+
+// let state=fs.lstatSync("file.js");
+
+// console.log(state.isFile());
+// console.log(state.isDirectory());
+
+
+// let responseArray=fs.readdirSync("abc");
+
+// console.log(responseArray);
+
+// fs.unlinkSync("./abc/tile.txt");
+
+// fs.rmdirSync("abc");
+
+// let path=require("path");
+
+// let arr=process.argv.slice(2);
+
+// let fileName=arr[0];
+// let content=arr[1];
+// let currentPath=process.cwd();
+// let fullPath=path.join(currentPath,"abc",fileName);
+
+// fs.writeFileSync(fullPath,content);
+
+// let inputArray=process.argv.slice(2);
+
+// let fileName=inputArray[0];
+// // fs.mkdirSync(fileName);
+
+// let currentPath=process.cwd();
+// console.log(currentPath);
+// let fullPath=path.join(currentPath,fileName);
+// console.log(fullPath);
+
+// fs.mkdirSync(fullPath,"JS");
+
+
+let fs=require("fs");
+let path=require("path");
+let src="D:/JavaScript/Assignment/module/abc2.js";
+let dest="D:/JavaScript/nodeModules";
+let fileName=path.basename(src);
+ dest=path.join(dest,fileName);
+console.log(fileName);
+fs.copyFileSync(src,dest);
